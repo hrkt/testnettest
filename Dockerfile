@@ -12,5 +12,6 @@ RUN git clone https://github.com/libra/libra.git
 WORKDIR "/libra"
 RUN echo "y" | ./scripts/dev_setup.sh
 
-CMD ["./scripts/cli/start_cli_testnet.sh"]
+#CMD ["./scripts/cli/start_cli_testnet.sh"]
+CMD ["/bin/bash"]
 
